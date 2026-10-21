@@ -1,23 +1,60 @@
 aid: resynced
+
 name: LeanyLabs
-description: 'LeanyLabs is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'LeanyLabs is a technology company focused on providing innovative solutions for data synchronization and integration across multiple platforms. The company aims to simplify complex data workflows, offering APIs and tools that enable developers to seamlessly connect disparate systems, automate data pipelines, and ensure consistency in real-time. LeanyLabs positions itself as a bridge between legacy infrastructure and modern cloud services, targeting enterprises seeking scalable and reliable data management solutions.'
+
 url: https://raw.githubusercontent.com/api-evangelist/resynced/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
-apis: []
+- Data Integration
+- APIs
+- Automation
+- Cloud Services
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/resynced-hosts.yml
+- type: Vendors
+  url: vendors/resynced-vendors.yml
+- type: DomainSecurity
+  url: security/resynced-domain-security.yml
 - type: Website
   url: https://resynced.io/
+
+apis: []
+
+x-coverage:
+  - state: none
+    reason: no-developer-program
+    detail: 'Website https://resynced.io/ returned HTTP 503, indicating no accessible developer documentation.'
+    evidence:
+      - url: https://resynced.io/
+        status: 503
+    checked: '2026-10-21'
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

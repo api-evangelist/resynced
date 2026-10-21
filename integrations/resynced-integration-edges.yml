@@ -1,0 +1,18 @@
+generated: '2026-10-21'
+method: none
+source:
+- https://zapier.com/apps/resynced/integrations
+- https://zapier.com/apps/leanylabs/integrations
+- https://n8n.io/integrations/resynced/
+- https://composio.dev/toolkits/resynced
+- https://monid.ai/tools/resynced
+checked:
+- https://composio.dev/toolkits/resynced
+- https://monid.ai/tools/resynced
+- https://n8n.io/integrations/resynced/
+- https://zapier.com/apps/leanylabs/integrations
+- https://zapier.com/apps/resynced/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
