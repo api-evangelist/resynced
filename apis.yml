@@ -45,13 +45,13 @@ common:
 apis: []
 
 x-coverage:
-  - state: none
-    reason: no-developer-program
-    detail: 'Website https://resynced.io/ returned HTTP 503, indicating no accessible developer documentation.'
-    evidence:
-      - url: https://resynced.io/
-        status: 503
-    checked: '2026-10-21'
+  state: none
+  reason: no-developer-program
+  detail: 'Website https://resynced.io/ returned HTTP 503, indicating no accessible developer documentation.'
+  evidence:
+    - url: https://resynced.io/
+      status: 503
+  checked: '2026-10-21'
 x-enrichment:
   date: '2026-10-21'
   status: enriched
